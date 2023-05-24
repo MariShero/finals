@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %} add_book Page {% endblock %}
+{% block content %}
+    <h1>Add a book </h1>
+    <p></p>
+<form action="" method="post" class="form-contact">
+    <p><label>Name:</label> <input type="text" name="name" value="" required placeholder="Enter your name"></p>
+    <p><label>Author:</label> <input type="text" name="author" value="" required placeholder="Enter your author"></p>
+    <p><label>Cost:</label> <input type="text" name="cost" value="" required placeholder="Enter your cost"></p>
+    <p><input type="submit" value="submit"></p>
+</form>
+{% endblock %}

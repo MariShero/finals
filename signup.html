@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %} Sign up Page {% endblock %}
+{% block content %}
+    <h1>Sign up - რეგისტრაცია </h1>
+    <p></p>
+<form action="" method="post" class="form-contact">
+    <p><label>Name:<p></p></label><input type="text" name="name" value="" required placeholder="Enter your name"></p>
+    <p><label>Surname:<p></p></label><input type="text" name="surname" value="" required placeholder="Enter your surname"></p>
+    <p><label>Email: <p></p></label><input type="text" name="email" value="" required placeholder="Enter your email"></p>
+    <p><label>Password: <p></p></label><input type="text" name="password" value="" required placeholder="Enter your password"></p>
+    <p><input type="submit" value="Sign up"></p>
+</form>
+{% endblock %}
